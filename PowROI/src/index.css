@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #F7F5F2;
+  --card: #FFFFFF;
+  --text: #1A1A1A;
+  --text-muted: #6B6B6B;
+  --border: #E0DDD8;
+  --accent: #1A1A1A;
+  --accent-light: #F0EFED;
+  --positive: #2D8B4E;
+  --negative: #C0392B;
+  --mountain: #D4CFC7;
+  --font: 'DM Sans', sans-serif;
+  --display: 'Cormorant Garamond', serif;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, select, button {
+  font-family: var(--font);
+}
+
+.leaflet-container {
+  background: var(--accent-light) !important;
+  border-radius: 0;
+}
+
+.resort-marker {
+  border: none !important;
+  background: none !important;
+}
